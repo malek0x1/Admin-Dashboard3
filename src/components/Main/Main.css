@@ -1,0 +1,150 @@
+* {
+    font-family: sans-serif;
+}
+
+.main {
+    flex: 0.8;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 50px 40px;
+
+}
+
+.widget1 {
+    /* padding: 20px ; */
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+
+}
+
+.leftWidget1 {
+    border-right: 1px solid #ddf;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightWidget1 {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.price>p {
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+
+}
+
+.graph {
+    width: 120px;
+    height: 80px;
+}
+
+.widget2 {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid #eee;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    flex-direction: column;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+
+}
+
+.widget2_row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.widget2_row_icons {
+    display: flex;
+    gap: 5px;
+}
+
+.widget2_row_icons>* {
+    cursor: pointer;
+    font-size: 12px;
+    color: gray;
+}
+
+.widget2_date {
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+
+.colored {
+    border-radius: 5px;
+    color: rgba(220, 20, 60, 0.782);
+    padding: 7px 9px;
+    background-color: rgba(255, 0, 0, 0.22);
+    display: flex;
+    align-items: center;
+}
+
+.Arrow {
+    font-size: 22px !important;
+
+}
+
+.widget2_icon_text {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+.widget2_icon_text > p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.widget2_price{
+    color: crimson;
+    display: flex;
+    align-items: center;
+}
+
+
+.colored2 {
+    border-radius: 5px;
+    color: rgba(0, 128, 0, 0.776);
+    padding: 7px 9px;
+    background-color: rgba(0, 128, 0, 0.282);
+    display: flex;
+    align-items: center;
+}
+
+.colored3 {
+    border-radius: 5px; 
+    color: rgb(255, 255, 0);
+    padding: 7px 9px;
+    /* background-color: rgba(255, 255, 0, 0.227); */
+    background-color: rgba(255, 255, 0, 0.297);
+    display: flex;
+    align-items: center;
+}
+
+.widget2_price2{
+    display: flex;
+    align-items: center;
+}

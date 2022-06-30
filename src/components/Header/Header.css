@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    border: 1px solid #eee;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.AppLogo {
+    border: 1px solid #eee;
+    height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+
+}
+
+.logo {
+    min-width: 30px;
+    object-fit: cover;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.LeftHeader {
+    display: flex;
+    align-items: center;
+}
+
+.greeting {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.h4-greeting {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.RightHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+
+}
+
+.RightHeader>* {
+    cursor: pointer;
+
+}
+
+.chatIcon {
+    background: rgba(0, 0, 139, 0.834);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.logox {
+    max-width: 0px;
+    object-fit: cover;
+    height: 0px;
+    border-radius: 50%;
+
+}
+
+@media (max-width:768px) {
+    .h4-greeting {
+        display: none;
+    }
+    .remove-me{
+        display: none !important;
+    }
+}
+
+.oG {
+
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
